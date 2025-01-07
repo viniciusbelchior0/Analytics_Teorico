@@ -3,7 +3,7 @@ library(vosonSML)
 library(tidyverse)
 
 #Inserindo chave de identificação
-apikey <- "AIzaSyA5gVEkN88Gsch3PFFBdF9cSpBwiM2vUSc"
+apikey <- "api_key"
 key <- Authenticate("youtube", apiKey = apikey)
 
 #Selecionando os videos para extração
