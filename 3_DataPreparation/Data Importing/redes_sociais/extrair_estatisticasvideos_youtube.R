@@ -2,8 +2,8 @@ library(plyr)
 library(tuber)
 library(tidyverse)
 
-client_id <- "26615932509-r4hc38uc49imgf26ol6k4lb1icihv01f.apps.googleusercontent.com"
-client_secret <- "65I_vrehIz-50THuVjr60ugk"
+client_id <- "client_id"
+client_secret <- "client_secret"
 
 yt_oauth(app_id = client_id, app_secret = client_secret, token = '')
 
