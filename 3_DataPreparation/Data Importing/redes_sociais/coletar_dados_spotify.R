@@ -2,8 +2,8 @@ devtools::install_github('charlie86/spotifyr')
 
 library(tidyverse)
 library(spotifyr)
-Sys.setenv(SPOTIFY_CLIENT_ID = "f7813b4a7f954fea908f4f0319c53e51")
-Sys.setenv(SPOTIFY_CLIENT_SECRET = "d2c9c94628e348898a56e1dbd026bef6")
+Sys.setenv(SPOTIFY_CLIENT_ID = "spotify_client_id")
+Sys.setenv(SPOTIFY_CLIENT_SECRET = "spotify_client_secret")
 
 dataframe <- get_artist_audio_features("Marcos Valle")
 
