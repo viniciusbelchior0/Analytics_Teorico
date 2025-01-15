@@ -5,7 +5,7 @@ import numpy as np
 import glob
 
 #funcao para fazer isso
-path = r'C:\Users\NOTEBOOK CASA\Desktop\ciclyng\data'
+path = r'Users\data'
 all_files = glob.glob(path + "/*.csv")
 
 li = []
@@ -19,4 +19,4 @@ frame = pd.concat(li, axis = 0, ignore_index=True)
 #conferindo o resultado
 frame.info()
 frame = frame.round(decimals=2) # se necessario arredondar casas decimais, para nao ter problema na hora de converter para csv
-frame.to_csv(r'C:\Users\NOTEBOOK CASA\Desktop\dados_agregados_virgula.csv', index=False, sep = ";",decimal = ",")
+frame.to_csv(r'=Users\dados_agregados_virgula.csv', index=False, sep = ";",decimal = ",")
